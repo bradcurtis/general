@@ -1,18 +1,35 @@
 ﻿<ion-view view-title="DataUpdate">
     <ion-content>
-        <ion-list show-delete="data.showDelete"
-                  on-delete="onItemDelete(chat)"
-                  option-buttons="itemButtons">
+        <div class="item item-divider">
+            Pick a Date
+        </div>
 
-            <ion-item ng-repeat="chat in chats"
-                      item="chat">
-                <label class="checkbox">
-                    <input type="checkbox" ng-click="clickItem(chat); $event.stopPropagation();" ng-model="chat.checked">
-                </label>
 
-                Item {{ chat.name }}
-            </ion-item>
 
-        </ion-list>
+        <ionic-datepicker input-obj="datepickerObject">
+            <button class="button button-dark"> {{datepickerObject.inputDate | date:'dd - MMMM - yyyy'}}</button>
+        </ionic-datepicker>
+
+
+
+        <div class="item item-divider">
+            Pick a Vendor
+        </div>
+
+
+        <div class="list">
+
+            <ion-checkbox ng-repeat="vendor in vendors"
+                          ng-model="vendor.checked"
+                          ng-checked="vendor.checked">
+                {{ vendor.name }}
+            </ion-checkbox>
+
+
+
+        </div>
+
     </ion-content>
+
+   
 </ion-view>

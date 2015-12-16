@@ -1,10 +1,10 @@
 ﻿angular.module('starter.formdataservice', [])
 
-.factory('Chats', function () {
+.factory('Vendors', function () {
     // Might use a resource here that returns a JSON array
 
     // Some fake testing data
-    var chats = [{
+    var vendors = [{
         id: 0,
         name: 'Ben Sparrow',
         lastText: 'You on your way?',
@@ -33,18 +33,20 @@
 
     return {
         all: function () {
-            return chats;
+            return vendors;
         },
-        remove: function (chat) {
-            chats.splice(chats.indexOf(chat), 1);
+        remove: function (vendor) {
+            vendors.splice(vendors.indexOf(vendor), 1);
         },
-        get: function (chatId) {
-            for (var i = 0; i < chats.length; i++) {
-                if (chats[i].id === parseInt(chatId)) {
-                    return chats[i];
+        get: function (vendorId) {
+            for (var i = 0; i < vendors.length; i++) {
+                if (vendors[i].id === parseInt(vendorId)) {
+                    return vendors[i];
                 }
             }
             return null;
         }
     };
 });
+
+
