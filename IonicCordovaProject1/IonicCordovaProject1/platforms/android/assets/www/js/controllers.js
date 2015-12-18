@@ -28,8 +28,23 @@ angular.module('starter.controllers', [])
     enableFriends: true
   };
 })
-.controller('DataupdateCtrl', function ($scope, Vendors) {
+.controller('DataupdateCtrl', function ($scope, Vendors, $ionicPlatform, BirthdayService) {
     $scope.vendors = Vendors.all();
+
+    var vm = this;
+
+    $ionicPlatform.ready(function () {
+
+        // Initialize the database.
+        BirthdayService.initDB();
+
+        // Get all birthday records from the database.
+        BirthdayService.getAllBirthdays()
+                        .then(function (birthdays) {
+                            vm.birthdays = birthdays;
+                        });
+    });
+
     $scope.remove = function (vendor) {
         Vendors.remove(vendor);
     }
@@ -56,6 +71,11 @@ angular.module('starter.controllers', [])
             console.log('Selected date is : ', val)
             $scope.datepickerObject.inputDate = val;
         }
+    };
+
+    // Open our new task modal
+    $scope.newTask = function () {
+        birthdayService.addBirthday($scope.task);
     };
 
 });

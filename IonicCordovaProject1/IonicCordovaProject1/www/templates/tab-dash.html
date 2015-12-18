@@ -1,26 +1,10 @@
 <ion-view view-title="Dashboard">
-  <ion-content class="padding">
-      
-      <div class="check-element animate-show" ng-hide="loggedinuser">
-          <form ng-submit="logIn(user)">
-              <div class="list">
-                  <label class="item item-input">
-                      <input type="email" placeholder="Email" ng-model="user.email">
-                  </label>
-              </div>
-              <div class="list">
-                  <label class="item item-input">
-                      <input type="password" placeholder="password" ng-model="user.password">
-                  </label>
-              </div>
-              <div class="padding">
-                  <button type="submit" class="button button-block button-positive">Please Log in</button>
-              </div>
-          </form>
-          </div>
-          <div class="check-element animate-show" ng-show="loggedinuser">
-              welcome:
-              <h2>{{loggedinuser.email}}</h2>
-            </div> 
+  <ion-content class="padding">      
+   
+         
+              
+      welcome: <h2>{{user.username}}</h2>
+      We found you in the offline database
+          
 </ion-content>
 </ion-view>
