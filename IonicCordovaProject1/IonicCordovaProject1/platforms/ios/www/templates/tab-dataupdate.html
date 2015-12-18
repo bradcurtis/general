@@ -1,0 +1,49 @@
+﻿<ion-view view-title="DataUpdate">
+    <ion-content>
+        <div class="item item-divider">
+            Pick a Date
+        </div>
+
+
+
+        <ionic-datepicker input-obj="datepickerObject">
+            <button class="button button-dark"> {{datepickerObject.inputDate | date:'dd - MMMM - yyyy'}}</button>
+        </ionic-datepicker>
+
+
+
+        <div class="item item-divider">
+            Pick a Vendor
+        </div>
+
+
+        <div class="list">
+
+            <ion-checkbox ng-repeat="vendor in vendors"
+                          ng-model="vendor.checked"
+                          ng-checked="vendor.checked">
+                {{ vendor.name }}
+            </ion-checkbox>
+
+
+
+        </div>
+
+        <div class="item item-divider">
+            add birthday
+        </div>
+
+
+        <div class="item">
+        <label class="item item-input">
+            <span class="input-label">birthday</span>
+            <input type="text" ng-model="title"/>
+        </label>
+            <button class="button button-dark" ng-click="newTask()">
+                submit save
+                </button>
+</div>
+    </ion-content>
+
+   
+</ion-view>
