@@ -11,39 +11,39 @@
   <preference name="windows-phone-target-version" value="8.1" />
 
   <platform name="android">
-    <icon src="res/icons/android/icon-36-ldpi.png" density="ldpi" />
-    <icon src="res/icons/android/icon-48-mdpi.png" density="mdpi" />
-    <icon src="res/icons/android/icon-72-hdpi.png" density="hdpi" />
-    <icon src="res/icons/android/icon-96-xhdpi.png" density="xhdpi" />
+    <icon src="res/icons/android/Johnson-Pace.png" density="ldpi" />
+    <icon src="res/icons/android/Johnson-Pace.png" density="mdpi" />
+    <icon src="res/icons/android/Johnson-Pace.png" density="hdpi" />
+    <icon src="res/icons/android/Johnson-Pace.png" density="xhdpi" />
   </platform>
 
   <platform name="ios">
     <!-- iOS 8.0+ -->
     <!-- iPhone 6 Plus  -->
-    <icon src="res/icons/ios/icon-60-3x.png" width="180" height="180" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="180" height="180" />
     <!-- iOS 7.0+ -->
     <!-- iPhone / iPod Touch  -->
-    <icon src="res/icons/ios/icon-60.png" width="60" height="60" />
-    <icon src="res/icons/ios/icon-60-2x.png" width="120" height="120" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="60" height="60" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="120" height="120" />
     <!-- iPad -->
-    <icon src="res/icons/ios/icon-76.png" width="76" height="76" />
-    <icon src="res/icons/ios/icon-76-2x.png" width="152" height="152" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="76" height="76" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="152" height="152" />
     <!-- iOS 6.1 -->
     <!-- Spotlight Icon -->
-    <icon src="res/icons/ios/icon-40.png" width="40" height="40" />
-    <icon src="res/icons/ios/icon-40-2x.png" width="80" height="80" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="40" height="40" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="80" height="80" />
     <!-- iPhone / iPod Touch -->
-    <icon src="res/icons/ios/icon-57.png" width="57" height="57" />
-    <icon src="res/icons/ios/icon-57-2x.png" width="114" height="114" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="57" height="57" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="114" height="114" />
     <!-- iPad -->
-    <icon src="res/icons/ios/icon-72.png" width="72" height="72" />
-    <icon src="res/icons/ios/icon-72-2x.png" width="144" height="144" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="72" height="72" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="144" height="144" />
     <!-- iPhone Spotlight and Settings Icon -->
-    <icon src="res/icons/ios/icon-small.png" width="29" height="29" />
-    <icon src="res/icons/ios/icon-small-2x.png" width="58" height="58" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="29" height="29" />
+    <icon src="res/icons/ios/Johnson-Pace.pngg" width="58" height="58" />
     <!-- iPad Spotlight and Settings Icon -->
-    <icon src="res/icons/ios/icon-50.png" width="50" height="50" />
-    <icon src="res/icons/ios/icon-50-2x.png" width="100" height="100" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="50" height="50" />
+    <icon src="res/icons/ios/Johnson-Pace.png" width="100" height="100" />
   </platform>
 
   <platform name="windows">
@@ -66,15 +66,15 @@
   </platform>
 
   <platform name="android">
-    <splash src="res/screens/android/screen-hdpi-landscape.png" density="land-hdpi"/>
-    <splash src="res/screens/android/screen-ldpi-landscape.png" density="land-ldpi"/>
-    <splash src="res/screens/android/screen-mdpi-landscape.png" density="land-mdpi"/>
-    <splash src="res/screens/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="land-hdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="land-ldpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="land-mdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="land-xhdpi"/>
 
-    <splash src="res/screens/android/screen-hdpi-portrait.png" density="port-hdpi"/>
-    <splash src="res/screens/android/screen-ldpi-portrait.png" density="port-ldpi"/>
-    <splash src="res/screens/android/screen-mdpi-portrait.png" density="port-mdpi"/>
-    <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="port-hdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="port-ldpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="port-mdpi"/>
+    <splash src="res/screens/android/Johnson-Pace.png" density="port-xhdpi"/>
   </platform>
 
   <platform name="ios">
